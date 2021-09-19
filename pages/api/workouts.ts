@@ -20,7 +20,7 @@ export default function handler(
 ) {
   const response = [
     {
-      date: moment(),
+      date: moment("20210920"),
       steps: [
         {
           order: "a",
@@ -55,42 +55,7 @@ export default function handler(
       ]
     },
     {
-      date: moment().subtract(1, 'days'),
-      steps: [
-                {
-          order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
-          sets: 1,
-        },
-        {
-          order: "b1",
-          activity: "Underhand Barbell Row",
-          reps: 8,
-          sets: 3,
-        },
-        {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
-          reps: 10,
-          sets: 3,
-        },
-        {
-          order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
-          reps: 1,
-          sets: 4,
-        },
-        {
-          order: "d",
-          activity: "Stretch",
-          reps: 1,
-          sets: 1,
-        }
-      ]
-    },
-    {
-      date: moment().subtract(2, 'days'),
+      date: moment("20210921"),
       steps: [
                 {
           order: "a",
@@ -125,7 +90,7 @@ export default function handler(
       ]
     },
     {
-      date: moment().subtract(3, 'days'),
+      date: moment("20210922"),
       steps: [
                 {
           order: "a",
@@ -160,7 +125,42 @@ export default function handler(
       ]
     },
     {
-      date: moment().subtract(4, 'days'),
+      date: moment("20210923"),
+      steps: [
+                {
+          order: "a",
+          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
+          reps: 28,
+          sets: 1,
+        },
+        {
+          order: "b1",
+          activity: "Underhand Barbell Row",
+          reps: 8,
+          sets: 3,
+        },
+        {
+          order: "b2",
+          activity: "Ring Dip; rest 45 sec",
+          reps: 10,
+          sets: 3,
+        },
+        {
+          order: "c",
+          activity: "Prowler Shuttle Sprints @ 50-90lbs",
+          reps: 1,
+          sets: 4,
+        },
+        {
+          order: "d",
+          activity: "Stretch",
+          reps: 1,
+          sets: 1,
+        }
+      ]
+    },
+    {
+      date: moment("20210924"),
       steps: [
                 {
           order: "a",

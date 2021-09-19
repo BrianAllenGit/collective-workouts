@@ -54,15 +54,14 @@ const Home: NextPage = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Workout Tracker</title>
+        <title>Collective Workouts</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppBar position="sticky"  elevation={1}>
         <Toolbar>
           <Typography variant="h6" className={styles.title}>
-            Workout Tracker
+            Collective Workouts
           </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
       <CssBaseline />
