@@ -24,30 +24,30 @@ export default function handler(
       steps: [
         {
           order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
+          reps: 1,
           sets: 1,
         },
         {
-          order: "b1",
-          activity: "Underhand Barbell Row",
+          order: "b",
+          activity: "Air squat",
           reps: 8,
           sets: 3,
         },
         {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
+          order: "c",
+          activity: "Push up",
           reps: 10,
           sets: 3,
         },
         {
-          order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
-          reps: 1,
-          sets: 4,
+          order: "d",
+          activity: "Chin-Up / Lat Pull-down",
+          reps: 12,
+          sets: 3,
         },
         {
-          order: "d",
+          order: "e",
           activity: "Stretch",
           reps: 1,
           sets: 1,
@@ -57,32 +57,26 @@ export default function handler(
     {
       date: moment("20210921"),
       steps: [
-                {
+        {
           order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
+          reps: 1,
           sets: 1,
         },
         {
-          order: "b1",
-          activity: "Underhand Barbell Row",
-          reps: 8,
-          sets: 3,
-        },
-        {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
-          reps: 10,
+          order: "b",
+          activity: "Sit ups",
+          reps: 12,
           sets: 3,
         },
         {
           order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
+          activity: "Row Machine - Moderate (40-60 RPM): 250 Meters",
           reps: 1,
           sets: 4,
         },
         {
-          order: "d",
+          order: "e",
           activity: "Stretch",
           reps: 1,
           sets: 1,
@@ -92,32 +86,32 @@ export default function handler(
     {
       date: moment("20210922"),
       steps: [
-                {
+        {
           order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
+          reps: 1,
           sets: 1,
         },
         {
-          order: "b1",
-          activity: "Underhand Barbell Row",
+          order: "b",
+          activity: "Dumbbell Deadlift",
+          reps: 5,
+          sets: 2,
+        },
+        {
+          order: "c",
+          activity: "Dumbbell overhead press",
           reps: 8,
           sets: 3,
         },
         {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
-          reps: 10,
+          order: "d",
+          activity: "Dumbbell Row",
+          reps: 12,
           sets: 3,
         },
         {
-          order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
-          reps: 1,
-          sets: 4,
-        },
-        {
-          order: "d",
+          order: "e",
           activity: "Stretch",
           reps: 1,
           sets: 1,
@@ -127,32 +121,26 @@ export default function handler(
     {
       date: moment("20210923"),
       steps: [
-                {
+        {
           order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
+          reps: 1,
           sets: 1,
         },
         {
-          order: "b1",
-          activity: "Underhand Barbell Row",
-          reps: 8,
-          sets: 3,
-        },
-        {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
-          reps: 10,
-          sets: 3,
+          order: "b",
+          activity: "Treadmill - Jogging (5.5 - 7.5MPH): 10 Minutes",
+          reps: 1,
+          sets: 1,
         },
         {
           order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
           reps: 1,
-          sets: 4,
+          sets: 1,
         },
         {
-          order: "d",
+          order: "e",
           activity: "Stretch",
           reps: 1,
           sets: 1,
@@ -162,32 +150,32 @@ export default function handler(
     {
       date: moment("20210924"),
       steps: [
-                {
+        {
           order: "a",
-          activity: "EMOM for 7 min: 2-posi hang clean (hips, knee) @ 65%",
-          reps: 28,
+          activity: "Treadmill - Walking (2.5-3.5 MPH): 10 Minutes",
+          reps: 1,
           sets: 1,
         },
         {
-          order: "b1",
-          activity: "Underhand Barbell Row",
+          order: "b",
+          activity: "Air squat",
           reps: 8,
           sets: 3,
         },
         {
-          order: "b2",
-          activity: "Ring Dip; rest 45 sec",
+          order: "c",
+          activity: "Push up",
           reps: 10,
           sets: 3,
         },
         {
-          order: "c",
-          activity: "Prowler Shuttle Sprints @ 50-90lbs",
-          reps: 1,
-          sets: 4,
+          order: "d",
+          activity: "Chin-Up / Lat Pull-down",
+          reps: 12,
+          sets: 3,
         },
         {
-          order: "d",
+          order: "e",
           activity: "Stretch",
           reps: 1,
           sets: 1,
